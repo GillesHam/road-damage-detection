@@ -1,26 +1,26 @@
 # Road Damage Detection — Python dependencies
 #
-# This file is read by Streamlit Community Cloud at deploy time and also serves
-# as the project manifest. On Colab the notebooks install their own GPU build of
-# PyTorch, so the CPU pins below only take effect in a plain `pip install`.
-#
-# Deploy notes:
-#   * torch/torchvision are pinned to CPU wheels via the pytorch CPU index — the
+# Read by Streamlit Community Cloud at deploy time and also the project manifest.
+# The torch pins are platform-aware (PEP 508 markers):
+#   * Linux (Streamlit Cloud) -> CPU-only wheels from the pytorch CPU index. The
 #     default Linux wheels are the multi-GB CUDA build and overflow the free tier.
-#   * opencv-python-headless needs no libGL/GUI system libraries on servers.
+#   * macOS / Windows (local dev) -> normal wheels from PyPI.
+# opencv-python-headless needs no libGL/GUI system libraries on servers.
 
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-ultralytics>=8.4.0            # YOLO26 / YOLOv8 detector + training + validation
-torch==2.6.0+cpu             # CPU-only wheel (avoids the ~2.5 GB CUDA build)
-torchvision==0.21.0+cpu      # paired with torch 2.6.0
-opencv-python-headless>=4.9  # headless OpenCV — no system libGL required
+ultralytics>=8.4.0                          # YOLO26 / YOLOv8 detector + severity
+torch==2.6.0+cpu ; sys_platform == "linux"        # Streamlit Cloud: CPU wheel
+torchvision==0.21.0+cpu ; sys_platform == "linux" # paired with torch 2.6.0
+torch>=2.2 ; sys_platform != "linux"              # local dev (mac/win)
+torchvision ; sys_platform != "linux"
+opencv-python-headless>=4.9                 # headless OpenCV — no system libGL
 numpy>=1.26
-pandas>=2.0                  # metric / detection tables
-matplotlib>=3.7              # EDA and result plots
-seaborn>=0.13                # nicer statistical plots in EDA
-scikit-learn>=1.3            # confusion-matrix helpers / split sanity checks
+pandas>=2.0                                 # metric / detection tables
+matplotlib>=3.7                             # EDA and result plots
+seaborn>=0.13                               # nicer statistical plots in EDA
+scikit-learn>=1.3                           # confusion-matrix helpers
 Pillow>=10.0
-streamlit>=1.32              # live demo dashboard (Colab tunnel + Streamlit Cloud)
+streamlit>=1.32                             # dashboard (Colab tunnel + Cloud)
 tqdm>=4.66
 PyYAML>=6.0

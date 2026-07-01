@@ -9,12 +9,14 @@ visualization  : draw detections / severity and EDA plots
 evaluation     : metrics extraction, comparison tables and result plots
 train          : transfer-learning helpers (YOLO26 with YOLOv8 fallback)
 inference      : RoadDamageDetector tying detection + severity together
-app            : Gradio live-demo dashboard
+
+The interactive dashboard lives in the repo-root `streamlit_app.py` (and the
+Colab notebook `04_Demo_App.ipynb`), not in this package.
 """
 from . import config  # noqa: F401
 
 __all__ = [
     "config", "data_prep", "severity", "visualization",
-    "evaluation", "train", "inference", "app",
+    "evaluation", "train", "inference",
 ]
 __version__ = "1.0.0"

@@ -10,7 +10,7 @@ permanent public web app on the free **Streamlit Community Cloud**.
 |---|---|
 | `streamlit_app.py` | Repo-relative entry point (no Colab / Drive). Streamlit Cloud runs this. |
 | `requirements.txt` | Python deps (already in the repo; `streamlit` replaces `gradio`). |
-| `packages.txt` | Debian system libs so OpenCV loads (`libgl1`, `libglib2.0-0`). |
+| `packages.txt` | Debian system libs so OpenCV loads (`libgl1`, `libglib2.0-0t64`). |
 | `.streamlit/config.toml` | Dark theme + upload-size cap. |
 
 The app serves the **YOLO26s** weight (`models/road_damage_yolo26s/weights/best.pt`,
@@ -34,9 +34,14 @@ Set the `MODEL_SCALE` environment variable to `m` or `n` to serve a different on
    and **not** excluded by a `.gitignore`.
 
 2. **Create the app.** Go to <https://share.streamlit.io> → *Create app* →
-   *Deploy from GitHub*. Select your repo/branch and set:
+   *Deploy from GitHub*. Select your repo/branch, then open **Advanced settings**
+   and set:
    - **Main file path:** `streamlit_app.py`
-   - **Python version:** 3.11 or 3.12
+   - **Python version:** **3.12** — this matters. Do **not** leave it on the
+     newest default (3.13/3.14): OpenCV and the pinned torch have no wheels for
+     Python 3.14 yet, so the build fails with "No matching distribution".
+     To change it on an already-deployed app: *Manage app → Settings → Python
+     version → 3.12* (reboots and rebuilds).
 
 3. **Deploy.** The first build installs PyTorch + Ultralytics, so it takes a few
    minutes. When it finishes you get a permanent `https://<app>.streamlit.app`
@@ -44,8 +49,14 @@ Set the `MODEL_SCALE` environment variable to `m` or `n` to serve a different on
 
 ## Notes & troubleshooting
 
-- **`ImportError: libGL.so.1`** — means `packages.txt` wasn't picked up; confirm
-  it is at the repo root and reboot the app from *Manage app → Reboot*.
+- **`No matching distribution found for torch==…` / OpenCV won't install** — the
+  app is on too-new a Python (3.14 has no OpenCV/torch wheels yet). Set **Python
+  3.12** (see step 2).
+- **`ImportError: libGL.so.1` or `libgthread-2.0.so.0`** — a system lib OpenCV
+  needs is missing; `packages.txt` must contain `libgl1` **and**
+  `libglib2.0-0t64` (the current Debian "trixie" name — the old `libglib2.0-0`
+  resolves to a broken package and fails apt). Confirm `packages.txt` is at the
+  repo root and reboot from *Manage app → Reboot*.
 - **Out of memory / app restarts** — the free tier is RAM-limited. Stay on the
   `s` (or `n`, ~5 MB) weight; avoid `m`. Inference is CPU-only here, ~1–3 s per
   image, which is fine for a demo.

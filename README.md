@@ -2,10 +2,13 @@
 
 **Computer Vision Group Project — IE School of Science & Technology (MBD)**
 
+**🔗 Live demo:** [road-damage-detection-compvis.streamlit.app](https://road-damage-detection-compvis.streamlit.app/)  
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://road-damage-detection-compvis.streamlit.app/)
+
 This submission detects **potholes** and **road cracks** in drone road imagery
 with a transfer-learned **YOLO26** detector. It also estimates a transparent
 **severity score** for every detected defect and an overall **road-condition
-index** per image. A live **Gradio dashboard** runs the full pipeline on newly
+index** per image. A live **Streamlit dashboard** runs the full pipeline on newly
 uploaded images for the presentation demo.
 
 ---

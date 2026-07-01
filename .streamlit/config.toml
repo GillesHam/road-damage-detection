@@ -1,0 +1,15 @@
+# Base theme for the deployed dashboard (widgets pick this up; the app injects
+# additional CSS for the hero, verdict card and defects table on top of it).
+[theme]
+base = "dark"
+primaryColor = "#f59e0b"
+backgroundColor = "#0a0f1c"
+secondaryBackgroundColor = "#121a2e"
+textColor = "#e8eefc"
+
+[server]
+# Uploaded demo photos are small; keep the cap modest to protect the free tier.
+maxUploadSize = 15
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,1206 @@
+{
+  "total_images": 300,
+  "source_split_folder": "Group assignment/data/RDD2022_China_Drone_300",
+  "files": [
+    {
+      "file": "China_Drone_000001.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000002.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000003.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000006.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000009.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000010.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000011.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000014.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000015.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000016.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000018.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000020.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000021.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000022.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000024.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000027.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000030.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000031.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000032.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000034.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000036.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000038.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000039.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000043.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000046.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000047.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000048.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000050.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000051.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000052.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000053.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000054.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000055.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000057.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000058.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000059.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000061.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000066.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000068.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000072.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000075.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000076.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000079.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000083.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000084.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000086.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000088.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000089.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000092.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000094.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000096.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000097.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000098.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000102.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000105.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000106.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000107.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000110.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000111.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000112.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000114.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000117.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000118.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000123.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000124.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000126.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000127.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000128.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000129.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000132.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000134.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000135.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000136.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000137.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000138.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000139.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000141.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000144.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000145.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000148.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000150.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000151.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000152.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000155.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000157.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000158.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000159.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000160.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000162.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000165.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000166.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000167.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000172.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000173.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000174.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000175.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000176.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000178.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000180.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000181.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000182.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000183.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000184.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000185.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000186.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000190.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000192.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000194.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000195.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000196.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000197.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000198.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000200.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000201.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000202.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000203.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000204.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000205.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000206.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000210.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000211.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000212.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000216.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000217.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000219.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000223.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000225.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000233.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000236.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000237.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000238.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000245.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000246.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000257.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000259.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000265.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000267.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000271.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000272.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000274.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000276.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000279.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000286.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000289.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000290.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000293.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000295.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000296.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000298.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000299.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000311.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000314.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000367.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000383.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000389.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000404.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000419.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000428.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000441.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000474.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000489.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000497.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000503.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000507.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000545.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000559.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000566.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000588.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000604.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000607.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000626.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000640.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000691.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000708.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000731.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000749.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000778.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000801.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000819.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000820.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000823.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000828.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000829.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000863.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000955.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001016.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001050.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001067.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001340.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001395.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001401.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001446.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001511.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001522.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001531.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001536.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001555.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001628.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001714.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001732.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001773.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001805.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_001940.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002007.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002041.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002132.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002143.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002144.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002245.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_002268.jpg",
+      "from_split": "train"
+    },
+    {
+      "file": "China_Drone_000005.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000007.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000008.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000012.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000017.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000026.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000033.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000035.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000040.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000063.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000070.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000074.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000077.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000078.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000081.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000082.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000085.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000093.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000095.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000100.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000103.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000109.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000113.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000119.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000120.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000130.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000140.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000143.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000149.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000153.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000164.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000168.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000169.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000171.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000179.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000187.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000189.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000191.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000222.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000262.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000280.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000283.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000321.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000393.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000394.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000435.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000437.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000681.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000694.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000839.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000861.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000998.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_001045.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_001287.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_001811.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_001847.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_001961.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_002137.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_002190.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_002372.jpg",
+      "from_split": "val"
+    },
+    {
+      "file": "China_Drone_000000.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000004.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000013.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000019.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000060.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000062.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000108.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000147.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000161.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000207.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000215.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000224.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000228.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000258.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000268.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000275.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000451.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000487.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000496.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000541.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000613.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000616.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000621.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000630.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000690.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000706.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_000805.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_001990.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_002080.jpg",
+      "from_split": "test"
+    },
+    {
+      "file": "China_Drone_002189.jpg",
+      "from_split": "test"
+    }
+  ]
+}

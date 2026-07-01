@@ -1,0 +1,21 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Streamlit local secrets (the committed .streamlit/config.toml is safe to keep)
+.streamlit/secrets.toml
+
+# NOTE: models/*.pt are intentionally committed — the deployed app loads them.
